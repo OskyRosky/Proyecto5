@@ -23,3 +23,14 @@ df = pd.DataFrame({
 
 # Print the DataFrame
 print(df)
+
+#DATAFRAME ARIANA 
+
+
+pastelería={"Nombre Producto":["vainilla", "chocolate", "red velvet", "marmoleado", "Limón"], 
+"Cantidad de Ventas":[25,15,20,10, 5], 
+"Costo de Produccion":[187500, 112500, 160000, 75000, 45000],
+"Margen de Beneficio":[187500, 112500, 160000, 75000, 45000],  
+"Precio de Venta": [375000, 225000, 360000, 150000, 90000]}
+pt = pd.DataFrame(pastelería)
+print(pt)
