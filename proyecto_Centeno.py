@@ -22,4 +22,14 @@ df = pd.DataFrame({
 })
 
 # Print the DataFrame
-print(df)
+
+
+###   ARIANA    ###
+
+nuevos_datos= {"Country": ["Argentina", "Mexico", "Brazil"],
+                "City": ["Buenos Aires", "San Cristobal", "Rio de Janeiro"],
+                "Hotel Cost per Day":[70, 70, 125],
+                "Air Ticket": [1200, 350, 800]
+                }
+dt_act= pd.concat([df, pd.DataFrame(nuevos_datos)], ignore_index=True)
+print(dt_act)
