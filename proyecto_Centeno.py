@@ -23,3 +23,14 @@ df = pd.DataFrame({
 
 # Print the DataFrame
 print(df)
+
+############################################
+#   DataFrame iniciada por Marco           #
+############################################
+actualización = {"Country":["Nigeria", "Kenya", "South Africa"],
+    "City": ["Abuja", "Nairobi", "Pretoria"],
+    "Hotel Cost per Day": [50, 100, 120],
+    "Air Ticket": [500, 450, 400]             
+    }
+act=pd.concat([df,pd.DataFrame(actualización)],ignore_index=True)
+print(act)
