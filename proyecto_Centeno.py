@@ -34,3 +34,17 @@ actualización = {"Country":["Nigeria", "Kenya", "South Africa"],
     }
 act=pd.concat([df,pd.DataFrame(actualización)],ignore_index=True)
 print(act)
+
+############################################
+#   DataFrame iniciada por Ariana          #
+############################################
+
+
+
+nuevos_datos= {"Country": ["Argentina", "Mexico", "Brazil"],
+                "City": ["Buenos Aires", "San Cristobal", "Rio de Janeiro"],
+                "Hotel Cost per Day":[70, 70, 125],
+                "Air Ticket": [1200, 350, 800]
+                }
+dt_act= pd.concat([act, pd.DataFrame(nuevos_datos)], ignore_index=True)
+print(dt_act)
