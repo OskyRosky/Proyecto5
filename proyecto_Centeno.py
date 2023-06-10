@@ -48,3 +48,16 @@ nuevos_datos= {"Country": ["Argentina", "Mexico", "Brazil"],
                 }
 dt_act= pd.concat([act, pd.DataFrame(nuevos_datos)], ignore_index=True)
 print(dt_act)
+
+
+############################################
+#   DataFrame Aporte Jennifer          #
+############################################
+
+datos_jenny= {"Country": ["Spain", "France", "Italy"],
+    "City": ["Madrid", "Paris", "Rome"],
+    "Hotel Cost per Day": [80, 100, 90],
+    "Air Ticket": [900, 800, 950]
+                }
+dt_act_2= pd.concat([dt_act, pd.DataFrame(datos_jenny)], ignore_index=True)
+print(dt_act_2)
